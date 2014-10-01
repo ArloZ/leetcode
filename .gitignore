@@ -1,0 +1,8 @@
+# ignore for cmake cache files
+/CMakeFiles
+CMakeCache.txt
+Makefile
+*.cmake
+
+# ignore for excuteable files
+/bin
