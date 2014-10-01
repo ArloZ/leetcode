@@ -11,6 +11,11 @@ if(NOT CMAKE_BUILD_TYPE)
     set(CMAKE_BUILD_TYPE "Release")
 endif()
 
-add_executable( single-number single-number.cpp )
+aux_source_directory(./ sources)
+foreach(src ${sources})
+    string( REGEX REPLACE ".cpp$" "" bin ${src} )
+    string( REGEX REPLACE "./." "" bin ${bin} )
+    add_executable( ${bin} ${src} )
+endforeach()
 
 
