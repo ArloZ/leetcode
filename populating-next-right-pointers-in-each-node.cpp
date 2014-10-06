@@ -1,8 +1,8 @@
 /*
- * date: 2014-10-03
+ * date: 2014-10-06
  * author: qile68@163.com
  *
- * leetcode problem: https://oj.leetcode.com/problems/same-tree/
+ * leetcode problem: https://oj.leetcode.com/problems/populating-next-right-pointers-in-each-node/
  */
 
 #include <iostream>
