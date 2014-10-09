@@ -17,8 +17,7 @@ class Solution {
         if(n < 1) return 0;
         int pre = A[0];
         int len = 1;
-        int i,j,k;
-        for(i = 1; i < n; i ++){
+        for(int i = 1; i < n; i ++){
             if(A[i] != pre){
                 A[len++] = A[i];
                 pre = A[i];
